@@ -1,31 +1,26 @@
-# ▲ / next-forge
+# Next.js Event Manager
 
-**Production-grade Turborepo template for Next.js apps.**
+This is a basic Next.js Event Manager built using **Next-Forge Turbo template** (monorepo with Turborepo + pnpm).
 
-<div>
-  <img src="https://img.shields.io/npm/dy/next-forge" alt="" />
-  <img src="https://img.shields.io/npm/v/next-forge" alt="" />
-  <img src="https://img.shields.io/github/license/vercel/next-forge" alt="" />
-</div>
+## Features
+- Event creation page (`/events`) with:
+  - Event Name (text, required)
+  - Date (required)
+  - Local in-memory event list with delete
+- Client-side state using **Zustand** or **useState**
+- Optional: **React Hook Form** for form handling
+- TailwindCSS for styling
 
-## Overview
+## Tech Stack
+- Next.js 15 (App Router)
+- TypeScript
+- TailwindCSS
+- pnpm
+- Zustand / React Hook Form (optional)
 
-[next-forge](https://github.com/vercel/next-forge) is a [Next.js](https://nextjs.org/) project boilerplate for modern web application. It is designed to be a comprehensive starting point for new apps, providing a solid, opinionated foundation with a minimal amount of configuration.
-
-## Getting Started
-
-Clone the repo using:
-
-```sh
-npx next-forge@latest init
-```
-
-Then read the [docs](https://www.next-forge.com/docs) for more information.
-
-## Contributors
-
-<a href="https://github.com/vercel/next-forge/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=vercel/next-forge" />
-</a>
-
-Made with [contrib.rocks](https://contrib.rocks).
+## Setup
+```bash
+git clone <your-repo-url>
+cd apps/web
+pnpm install
+pnpm run dev
