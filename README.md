@@ -7,7 +7,7 @@ This is a basic Next.js Event Manager built using **Next-Forge Turbo template** 
   - Event Name (text, required)
   - Date (required)
   - Local in-memory event list with delete
-- Client-side state using **Zustand** or **useState**
+- Client-side state using **useState**
 - Optional: **React Hook Form** for form handling
 - TailwindCSS for styling
 
@@ -16,7 +16,6 @@ This is a basic Next.js Event Manager built using **Next-Forge Turbo template** 
 - TypeScript
 - TailwindCSS
 - pnpm
-- Zustand / React Hook Form (optional)
 
 # INSTALATION
 
