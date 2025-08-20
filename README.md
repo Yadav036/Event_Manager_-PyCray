@@ -18,9 +18,41 @@ This is a basic Next.js Event Manager built using **Next-Forge Turbo template** 
 - pnpm
 - Zustand / React Hook Form (optional)
 
-## Setup
+# INSTALATION
+
+### **1️⃣ Clone the repository**
+
 ```bash
-git clone <your-repo-url>
-cd apps/web
+git clone https://github.com/Yadav036/Event_Manager_-PyCray.git
+cd Event_Manager_-PyCray
+```
+
+---
+
+### **2️⃣ Install dependencies**
+
+```bash
 pnpm install
-pnpm run dev
+```
+
+---
+
+### **3️⃣ Navigate to the web app**
+
+```bash
+cd apps/web
+```
+
+---
+
+### **4️⃣ Run the Next.js app locally**
+
+```bash
+pnpm dev
+```
+
+* Default port: `3001`
+* Open in browser: [http://localhost:3001](http://localhost:3001)
+
+
+---
